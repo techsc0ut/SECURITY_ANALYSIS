@@ -1,3 +1,4 @@
+# This script will filter out the valid reachable domains from the list of domains
 #!/bin/bash
 
 filename='paytm_subd.txt'
