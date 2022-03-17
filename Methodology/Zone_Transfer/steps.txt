@@ -1,0 +1,16 @@
+For performing Zone tranfer :
+
+1) first find the primary/secondary name servers using :-
+         dig +short ns <domain> 
+2) after that their would be primary/secondary name servers listed in the "Answer section" of the output.
+3) Now for zone tranfer do:-
+          dig axfr <domain> @<name_server>
+
+
+for eg:-
+
+$ dig +short ns zonetransfer.me
+   nsztm1.digi.ninja.
+   nsztm2.digi.ninja.
+
+$ dig axfr zonetransfer.me @nsztm1.digi.ninja. 
