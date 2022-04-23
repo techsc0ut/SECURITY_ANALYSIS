@@ -1,0 +1,3 @@
+Simple usage :
+
+$ python3 dirsearch.py -e php,html,js -u https://target
