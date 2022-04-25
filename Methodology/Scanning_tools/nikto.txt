@@ -1,1 +1,3 @@
-
+# Usage 
+Eg:-
+$ nikto -h 43.239.61.139 -Display v -port 80, 53, 443, 8080 
